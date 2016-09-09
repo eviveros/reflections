@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+    it's created a special directory with all the medatada Git needs, the special directory is named .git
+    We need to initialize Git so we have a starting point in the versioning with Git
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    It's an interim area between the repository and the working directory, all the files you put in this area are ready
+    to commit
+    It's a last chance to repentance, it's a good feature because this way you can be sure what are you doing
