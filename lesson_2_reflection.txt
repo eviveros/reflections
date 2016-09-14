@@ -7,3 +7,26 @@ What value do you think it offers?
     It's an interim area between the repository and the working directory, all the files you put in this area are ready
     to commit
     It's a last chance to repentance, it's a good feature because this way you can be sure what are you doing
+
+How can you use the staging area to make sure you have one commit per logical change?
+    Using git diff --staged to make sure I just commiting what I really want to commit.
+    I can also compare my working directory with staging area using git diff.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+    when you are experimenting with a new feature but you don't want to publish these changes in a production
+    environment. Or if you have a short version of the same app.
+    Branches can deal with each one of these versions mentioned before.
+
+How do the diagrams help you visualize the branch structure?
+    It's some kind of visual diagram of the current branch you are step on and the history about how you get there.
+    very helpful
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+    The changes in the merging branch are incorporated to our target branch
+    In the current branch the two branches met and become one, this is the way we just have one branch again
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    In automatic merging you don't have the control of what's going on. In the other hand, when it's manually
+    you know what's happening but it's more effort
